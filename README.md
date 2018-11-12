@@ -42,9 +42,7 @@ Feel free to contribute, improve or use it for your projects.
 - it does not build source-maps, but you may specify it on line `218` if you want them
 
 
-### Commands?
-
-It's pretty easy... You do not have a bunch of commands, just two of them:
+### Commands
 
 - `npm run dev` – to start with development
 - `npm run build` - to make it ready for production use
