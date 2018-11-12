@@ -9,6 +9,8 @@ Feel free to contribute, improve or use it for your projects.
 - jQuery
 - Bootstrap with Popper.js
 - FontAwesome Pro _(which you cannot install, unless you have a Pro account, as you will require a Token for installation)_
+- Name And Descripiton from package.json will wrote to title and description of html file
+- Contains mail.php file template for sending mails from forms with ease
 
 
 ### What does this configuration handles?
