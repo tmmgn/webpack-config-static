@@ -1,7 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const minJSON = require('jsonminify');
-const package = require('./package.json');
+const packageFile = require('./package.json');
 
 const plugins = {
   progress: require('webpackbar'),
@@ -168,8 +168,8 @@ module.exports = (env = {}, argv) => {
         new plugins.html({
           template: 'index.html',
           filename: 'index.html',
-          title: package.name, // Project name will be user as site title
-          description: package.description, // Project desc will be user as site desc
+          title: packageFile.name, // Project name will be user as site title
+          description: packageFile.description, // Project desc will be user as site desc
           minify: {
             removeScriptTypeAttributes: true,
             removeStyleLinkTypeAttributes: true,
