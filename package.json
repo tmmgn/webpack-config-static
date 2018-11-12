@@ -1,0 +1,48 @@
+{
+  "name": "webpack-config",
+  "version": "1.0.0",
+  "description": "Webpack 4 configuration for static projects",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --hide-modules --mode development",
+    "build": "webpack --progress --hide-modules --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "autoprefixer": "^9.1.2",
+    "babel-loader": "^8.0.0-beta.4",
+    "browser-sync": "^2.24.6",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.0.5",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^4.3.1",
+    "jsonminify": "^0.4.1",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.15.2",
+    "sass-loader": "^7.1.0",
+    "underscore-template-loader": "^1.0.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-subresource-integrity": "^1.1.0-rc.4",
+    "webpackbar": "^2.6.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-pro": "^5.2.0",
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4"
+  },
+  "browserslist": [
+    "last 1 major version",
+    "> 1%"
+  ]
+}
